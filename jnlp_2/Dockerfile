@@ -1,6 +1,6 @@
 FROM jenkinsci/jnlp-slave:2.62
 
-ENV GC_SDK_VERSION=161.0.0
+ENV GC_SDK_VERSION=177.0.0
 ENV CLOUDSDK_CORE_DISABLE_PROMPTS 1
 ENV PATH /opt/google-cloud-sdk/bin:$PATH
 
