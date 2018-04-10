@@ -9,12 +9,12 @@ Kubectl is installed by [Google Cloud Platform SDK](https://cloud.google.com/sdk
 See [release notes](https://cloud.google.com/sdk/docs/release-notes) for more information.
 
 ## kubectl tags and versions
-At the moment, the only available image is based on [jenkinsci/jnlp-slave:2.62](https://hub.docker.com/r/jenkinsci/jnlp-slave/)
-with [kubectl 1.7.6](https://kubernetes.io/docs/reference/kubectl/overview/)
+At the moment, the available image is based on [jenkinsci/jnlp-slave:2.62](https://hub.docker.com/r/jenkinsci/jnlp-slave/)
+with [kubectl 1.8.6](https://kubernetes.io/docs/reference/kubectl/overview/)
 
 | Folder | Jenkins slave | kubectl |
 | --- | --- | --- |
-| [jnlp_2](jnlp_2) | jenkinsci/jnlp-slave:2.62 | 1.7.6 |
+| [jnlp_2](jnlp_2) | jenkinsci/jnlp-slave:2.62 | 1.8.6 |
 
 Feel free to add slaves based on other image varieties.
 
